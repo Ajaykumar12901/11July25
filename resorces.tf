@@ -26,6 +26,6 @@ resource "azurerm_resource_group" "rg_tata" {
 
 
 resource "azurerm-resource_group" "angad" {
-       name = "payaremohan"
+       name = "nandubhai"
        location = "eastus"
 }

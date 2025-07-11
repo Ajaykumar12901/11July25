@@ -22,4 +22,11 @@ resource "azurerm_resource_group" "rg_tata" {
 #     storage_account_id = azurerm_storage_account.stg-tata[count.index].id
 #     container_access_type = "private"
   
-# }
+# 
+
+resource "azurerm_resource_group" "rg_tata1" {
+    count =length(var.resource_group)
+    name = var.resource_group[count.index]
+    location = "eastus"
+  
+}

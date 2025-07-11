@@ -23,3 +23,9 @@ resource "azurerm_resource_group" "rg_tata" {
 #     container_access_type = "private"
   
 # }
+
+
+resource "azurerm-resource_group" "angad" {
+       name = "payaremohan"
+       location = "eastus"
+}
